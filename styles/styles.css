@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body{
+    background: url(../images/gingham.jpg) repeat;
+}
+
+header {
+    width: 700px;
+}
+
+header img {
+    width: 100%;
+}
+
+#container{
+    width: 700px;
+    margin: 50px auto auto auto;
+
+    background-color:#FFF7EA;
+    border: 10px solid #FFE1B4;
+}
+
+#container section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    margin-top: 8px;
+
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 32px;
+
+    color:#84a59d;
+
+    flex: 1;
+    text-align: end;
+}
+
+ol {
+    flex: 1;
+}
+
+ol, li {
+    list-style: none;
+}
+
+li :hover {
+    color:#f3d4d0;
+    background: #f28482;
+}
+
+li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #f28482;
+}
+
+footer {
+    width: 800px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #84a59d;
+    flex: 1;
+}
+
+footer a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #84a59d;
+    text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        width: 400px;
+    }
+
+    #container{
+        width: 400px;
+        margin: 25px auto auto auto;
+    }
+
+    footer {
+        font-size: medium;
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer p {
+        margin: 0px;
+        flex: 1 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Challenge 7</title>
+		
+		<link href="styles.css" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+
+		<style>
+
+			nav {
+				margin-bottom: 20px;
+			}
+
+			nav ul {
+				list-style: none;
+				display: flex;
+				justify-content: flex-end;
+			}
+
+			nav ul li a {
+				display: block;
+				background-color: coral;
+				text-align: center;
+				padding: 20px;
+				border-right: 2px solid #666;
+			}
+
+			nav ul li:last-of-type a {
+				border: none;
+			}
+			
+			#sec1 {
+				display: flex;
+				justify-content: space-between;
+				background-color: aqua;
+			}
+
+			#sec1 article {
+				background-color: bisque;
+				width: 31.5%;
+			}
+
+			#sec1 article:nth-child(2) {
+				background-color: beige;
+			}
+
+			#sec1 article h2 {
+				padding-bottom: 20px;
+				width: 100%;
+			}
+
+			#sec2 {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				background-color: lightgray;
+				padding: 20px;
+			}
+
+			#sec2 h2 {
+				flex: 1 100%;
+				text-align: center;		
+			}
+
+			#sec2 article {
+				flex: 1;
+				padding: 20px;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<nav>
+			<ul>
+				<li><a href="#">First Link</a></li>
+				<li><a href="#">Second Link</a></li>
+				<li><a href="#">Third Link</a></li>
+				<li><a href="#">Fourth Link</a></li>
+				<li><a href="#">Fifth Link</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			<h1>Site Title</h1>
+		</header>
+
+		<section id="sec1">
+		
+			<article id="one">
+				<h2>Article Title 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Tellus mauris a diam maecenas sed. Metus aliquam eleifend mi in.</p>
+			</article>
+		
+			<article id="two">
+				<h2>Article Title 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Tellus mauris a diam maecenas sed. Metus aliquam eleifend mi in.</p>
+			</article>
+
+			<article id="three">
+				<h2>Article Title 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Tellus mauris a diam maecenas sed. Metus aliquam eleifend mi in.</p>
+			</article>
+
+		</section>
+
+		<section id="sec2">
+			<h2>This is a Section Header</h2>
+
+			<article id="one">
+				<h3>Article Title 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Tellus mauris a diam maecenas sed. Metus aliquam eleifend mi in.</p>
+			</article>
+		
+			<article id="two">
+				<h3>Article Title 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Tellus mauris a diam maecenas sed. Metus aliquam eleifend mi in.</p>
+			</article>
+		
+		</section>
+
+		<footer>
+			<p>Footer Content</p>
+		</footer>
+	</body>
+
+</html>

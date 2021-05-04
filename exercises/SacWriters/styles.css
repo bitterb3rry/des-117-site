@@ -1,0 +1,104 @@
+body {
+    width: 900px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    flex: 1;
+}
+
+header img {
+    flex: 1;
+}
+
+#cta {
+    
+}
+
+header nav {
+    flex: 1 100%;
+}    
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    border-top: 2px solid #cc1600;
+}
+
+header nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    border-left: 2px solid #cc1600;
+}
+
+header nav ul li:last-of-type a {
+    border-right: 2px solid #cc1600;
+}
+
+header nav ul li:first-of-type a {
+    border-left: 0;
+}
+
+/******************** top section *************************/
+
+#top {
+     display: flex;
+}
+
+#top blockquote {
+    flex: 1;
+
+    font-family: 'Crimson Text', serif;
+    font-size: 28px;
+}
+
+#top #new-box {
+    flex: 1;
+    background-color: #eeeeee;  
+}
+
+#top #new-box h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+}
+
+/******************** middle sectoion ***********************/
+
+#middle {
+    display: flex;
+}
+
+#middle article {
+    flex: 1;
+    padding-right: 15px;
+}
+
+#middle article:last-of-type {
+    padding-right: 0px;
+}
+
+#middle article h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2c3e6d;
+    border-top: 4px solid #2c3e6d;
+}
+
+#middle article p {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+#large-link a{
+    text-decoration: none;
+    color: #d85840;
+}

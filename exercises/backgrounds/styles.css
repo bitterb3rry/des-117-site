@@ -1,0 +1,55 @@
+
+body {
+	font-family: Arial;
+	color:#333;
+}
+
+h1 {
+	margin-bottom: 100px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+div {
+	margin: 0 auto 100px auto;
+	width: 960px;
+	height: 200px;
+	background: #ccc;
+}
+
+#box3 {
+	width: 400px;
+	height: 400px;
+	background: rgb(235,224,184);
+	background: radial-gradient(circle, rgba(235,224,184,1) 0%, rgba(235,147,42,1) 100%);
+}
+
+#box1 {
+	background: rgb(7,44,67);
+	background: linear-gradient(0deg, rgba(7,44,67,1) 0%, rgba(12,81,122,1) 100%);
+}
+
+#box2 {
+	background: rgb(7,44,67);
+	background: linear-gradient(229deg, rgba(7,44,67,1) 30%, rgba(107,153,165,1) 50%, rgba(12,81,122,1) 70%); 
+}
+
+#box4 {
+	background: #00afec;
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+#box5 {
+	background: #00afec;
+	-webkit-box-shadow: inset 0px 0px 12px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 12px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+#box6 {
+	background: url(images/wov.png) repeat;
+}

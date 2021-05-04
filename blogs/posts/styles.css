@@ -1,0 +1,175 @@
+/* CSS for Posts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+header {
+    width: 100%;
+    height: 200px;
+    background: url(../images/gingham.jpg) ;
+}
+
+header h1 {
+    /* big title */
+    width: 800px;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+
+    font-family: 'Nerko One', cursive;
+    font-size: 84px;
+    color: #455955;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+img {
+    margin: auto;
+}
+
+article {
+    width: 800px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+article time, article h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+article h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+
+    margin: auto;
+    padding-top: 10px;
+}
+
+article h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+    margin: auto;
+}
+
+article p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+nav {
+    width: 800px;
+    margin: auto;
+    
+}
+
+nav h1 {
+    font-family: 'Nerko One', cursive;
+    font-size: 36px;
+    color: #f28482;
+
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+}
+
+nav ul {
+    margin: 0px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+nav ul li :hover {
+    background-color: #455955;
+    color: #FFE1B4;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #455955;
+    text-decoration: none;
+}
+
+footer {
+    width: 800px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #455955;
+}
+
+#footerLine {
+    border-top: 2px solid #455955;
+}
+
+footer p {
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        height: 125px;
+    }
+
+    header h1 {
+        width: 100%;
+        margin: auto;
+        font-size: 56px;
+    }
+
+    article {
+        width: 400px;
+    }
+
+    article time, article h3 {
+        font-size: 18px;
+    }
+
+    article h2 {
+        font-size: 36px;
+    }
+
+    section article img {
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        width: 400px;
+    }
+
+    nav h1 {
+        text-align: center;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    footer {
+        width: 100%;
+        
+        font-size: 14px;
+        display: flex;    
+    }
+
+    footer p {
+        flex: 1;
+        text-align: center;
+    }
+
+}
